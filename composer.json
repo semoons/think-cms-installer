@@ -1,0 +1,27 @@
+{
+    "name": "kucms/think-cms-installer",
+    "description": "CMS安装",
+    "type": "composer-plugin",
+    "homepage": "http://www.waakuu.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "semoons",
+            "email": "12139267@qq.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "cms\\composer\\": "src"
+        }
+    },
+    "extra": {
+        "class": "cms\\composer\\Plugin"
+    }
+}
